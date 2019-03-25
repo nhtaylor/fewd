@@ -1,0 +1,21 @@
+About Me page content
+
+Hi I'm Rocket Raccoon, a member of Guardians of the Galaxy. I love all things mechanical and explosive. When I'm not saving the Galaxy, I'm either hanging out with my best friend, Groot or learning how to code. Check out my portfolio and let me know what you think!
+
+
+Portfolio page content
+
+Web Developer, Relaxr 2015 - present
+Developed a multi-column layout blog, landing page, and contact forms that render on mobile devices.
+
+Web Developer, Startup Matchmaker 2015 - present
+Used a design team's wireframes to develop this company's responsive homepage.
+
+Web Developer, CitiPix 2015 – present
+Built web app prototype that allows users to store and quickly retrieve photos using keywords.
+
+EDUCATION
+
+General Assembly — FEWD 2015
+College of Soft Knocks — B.S. 2009
+School of Hard Knocks — 2005 (Honors)
