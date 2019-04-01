@@ -1,0 +1,43 @@
+.box {
+  background-color: #EEE;
+  border: 1px #333 solid;
+}
+
+.container {
+  width: 1024px;
+  margin: 0 auto;
+}
+
+.header {
+  height: 150px;
+  margin-bottom: 20px;
+}
+
+.section {
+  height: 400px;
+  width: 48%;
+}
+
+.feature {
+  height: 200px;
+  width: 30%;
+}
+
+.footer {
+  height: 150px;
+  width: 100%;
+}
+
+.section-container {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  margin-bottom: 20px;
+}
+
+.feature-container {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  margin-bottom: 20px;
+}
