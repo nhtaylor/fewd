@@ -4,14 +4,19 @@
   background-color: #EEEEEE;
 }
 
-.message { 
+.message {
   border: 2px #333333 solid;
   padding: 10px;
-  background-color: #00AEEF;
-  margin-bottom: 10px; 
+  background-color: #00AEEF; /*blue*/
+  margin-bottom: 10px;
 }
 
 .error {
   border: 4px red solid;
   background-color: pink;
+}
+
+.success {
+  border: 4px darkgreen solid;
+  background-color: limegreen;
 }
