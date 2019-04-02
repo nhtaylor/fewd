@@ -65,7 +65,8 @@ p {
 .caps {
   color: #EEE;
   float: left;
-  font-size: 100px;
+  font-size: 100
+  px;
   line-height: 60px;
   padding-top: 4px;
   padding-right: 8px;
