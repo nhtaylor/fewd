@@ -2,13 +2,40 @@ body {
 }
 
 h1 {
+  background-color: red;
+  border: solid black 1px;
+  padding: 10px;
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+  color: purple;
+  margin: 2px;
+  border: dashed navy 3px;
 }
 
 p {
+  background-color: blue;
+  color: white;
+  padding: 8px;
+  border: solid black 3px;
 }
 
 code {
+  background-color: white;
+  color: black;
+  padding: 3px;
+  border: red dashed 2px;
 }
 
 li {
+  margin: 15px;
+}
+
+li:nth-child(even) {
+  color: green
+}
+li:nth-child(odd) {
+  color: gold
 }
