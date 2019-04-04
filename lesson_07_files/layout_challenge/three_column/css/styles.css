@@ -20,3 +20,31 @@ in the middle of the screen
   width: 1024px;
   margin: 0 auto;
 }
+
+.header {
+  height: 200px;
+  width: 100%;
+}
+
+.sidebar {
+height: 500px;
+  width: 25%
+}
+
+.content {
+  height: 500px;
+  width: 45%
+}
+
+.content-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.footer {
+  height: 200px;
+  width: 100%;
+}
