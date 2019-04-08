@@ -1,0 +1,101 @@
+body {
+	margin: 0;
+	padding: 50px;
+	font-family: 'Lato', sans-serif;
+	font-size: 18px;
+	line-height: 1.5;
+	background: #FFF;
+	color: #444;
+	max-width: 800px;
+	border-left: 6px solid #DDD;
+}
+
+a {
+	color: #D00;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #A00;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	padding: 0;
+}
+
+h1 {
+	font-size: 48px;
+	font-weight: normal;
+}
+
+h2 {
+	font-size: 32px;
+	font-weight: normal;
+	color: black;
+	margin: 0;
+	padding: 0;
+}
+
+h2 a {
+	color: inherit;
+}
+
+h2 a:hover {
+	color: #D00;
+}
+
+h3 {
+	font-size: 28px;
+	font-weight: normal;
+	color: #CCC;
+	margin: 0;
+	padding: 0;
+}
+
+h4 {
+	text-align: right;
+}
+
+img {
+	display: block;
+	margin: 10px 0;
+	max-width: 100%;
+}
+
+
+header h2 {
+	font-size: 24px;
+	margin-bottom: 8px;
+}
+
+footer {
+	color: #BBB;
+}
+
+header nav a {
+	display: inline-block;
+	font-size: 20px;
+	margin-right: 12px;
+	color: #DDD;
+	border-bottom: 2px solid #EEE;
+}
+
+header nav a:hover {
+	color: black;
+	border-bottom-color: #BBB;
+}
+
+article {
+	border-bottom: 1px solid #DDD;
+	margin: 48px 0;
+	padding-bottom: 24px;
+}
+
+article p:first-letter {
+	float: left;
+	font-size: 100px;
+	line-height: 0.75;
+	color: #DDD;
+	margin: -0.1px 0.3px 0 -1.2px;
+}
