@@ -1,7 +1,7 @@
 /* Use this style as your guidelines, comment out when done*/
-/* * {
+* {
   border: 1px dashed blue;
-} */
+}
 
 /*
 Apply this style to every bordered box that
@@ -10,6 +10,49 @@ will have a gray background
 .box {
   background-color: #EEE;
   border: 1px #333 solid;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo{
+  height: 150px;
+  width: 28%;
+}
+
+.nav-container{
+  display: flex;
+  justify-content: space-between;
+  width: 65%;
+  align-items: center;
+}
+
+.nav-item{
+  height: 60px;
+  width: 22%;
+}
+
+.content {
+   margin-top: 15px;
+  height: 375px;
+}
+
+.feature-container{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.feature{
+    height: 175px;
+    width: 30%;
+}
+
+.footer{
+  height: 150px;
 }
 
 /*
