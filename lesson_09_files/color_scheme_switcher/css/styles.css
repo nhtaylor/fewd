@@ -38,3 +38,10 @@ p {
 #whiteButton {
   background: white;
 }
+
+#redButton {
+  background-color: #c0392b;
+}
+
+#blueButton {
+  background-color: #2980b9;
