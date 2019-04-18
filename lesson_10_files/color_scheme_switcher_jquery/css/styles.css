@@ -38,6 +38,14 @@ p {
   background: white;
 }
 
+#redButton {
+  background-color: #c0392b;
+}
+
+#blueButton {
+  background-color: #2980b9;
+}
+
 .gray {
   background: gray;
   color: white;
@@ -46,4 +54,14 @@ p {
 .white {
   background: white;
   color: black;
+}
+
+.red {
+  background: #c0392b;
+  color: black;
+}
+
+.blue {
+  background: #2980b9;
+  color: white;
 }
