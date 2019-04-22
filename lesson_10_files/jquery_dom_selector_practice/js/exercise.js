@@ -88,15 +88,12 @@ $("#button1").click(question1);
  * When button 3 is clicked, change the text in the header's h1 tag to read "jQuery Ninja"
  */
 
- 
+ function question7(){
+ 	$("h1:header").html("jQuery Ninja");
+ }
 
  $("#button3").click(question7);
 
- //  //  //  //  //
-
- // STUCK HERE
-
- //  //  //  //  //
 
 /**
  * Question 8:
@@ -104,9 +101,21 @@ $("#button1").click(question1);
  * $(".city").attr("src", "http://lorempixel.com/g/500/400/food");
  */
 
+/** replace building photo with pasta photo */
+ function question8(){
+ 	$(".city").attr("src", "http://lorempixel.com/g/500/400/food");
+ }
+
+ $("#button3").click(question8);
 
 /**
  * Question 9:
  * When button 3 is clicked, select all paragraphs on the page and change the color to blue and font to Georgia.
  * Bonus: Try to do this with only one jQuery call. $("selector").css({attribute: "value", attribute: "value"});
  */
+
+ function question8(){
+   $("p").css({color: "blue", 'font-family': "Georgia"});
+ }
+
+ $("#button3").click(question9);
