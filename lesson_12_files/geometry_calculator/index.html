@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Geometry Formulas with Functions</title>
+    <meta charset='utf-8'>
+    <link href='css/styles.css' rel='stylesheet'>
+  </head>
+
+  <body>
+    <div class="container">
+      <h1>Geometry Calculator</h1>
+
+      <div class="section">
+        <h2>Area of Rectangle</h2>
+
+        <div class="field">
+          <span>Rectangle Height:  </span>
+          <input id="rectangleHeight" />
+        </div>
+
+        <div class="field">
+          <span>Rectangle Width:  </span>
+          <input id="rectangleWidth" />
+        </div>
+
+        <button id="calculateRectangleArea">Calculate Area of Rectangle</button>
+
+        <div id="rectangleAreaResult" class="result">
+          <span class="label">Result:</span>
+          <span class="answer"></span>
+        </div>
+      </div>
+
+      <div class="section">
+        <h2>Area of Triangle</h2>
+
+        <div class="field">
+          <span>Triangle Height:  </span>
+          <input id="triangleHeight" />
+        </div>
+
+        <div class="field">
+          <span>Triangle Base:  </span>
+          <input id="triangleBase" />
+        </div>
+
+        <button id="calculateTriangleArea">Calculate Area of Triangle</button>
+
+
+        <div id="triangleAreaResult" class="result">
+          <span class="label">Result:</span>
+          <span class="answer"></span>
+        </div>
+      </div>
+
+
+
+      <div class="section">
+        <h2>Area of Circle</h2>
+
+        <div class="field">
+          <span>Circle Radius:  </span>
+          <input id="circleRadius" />
+        </div>
+
+        <button id="calculateCircleArea">Calculate Area of Circle</button>
+
+        <div id="circleAreaResult" class="result">
+          <span class="label">Result:</span>
+          <span class="answer"></span>
+        </div>
+      </div>
+
+
+      <div class="section">
+        <h2>Surface Area of a Sphere</h2>
+
+        <div class="field">
+          <span>Sphere Radius:  </span>
+          <input id="sphereRadius" />
+        </div>
+
+        <button id="calculateSurfaceAreaOfSphere">Calculate Area of Sphere</button>
+
+        <div id="surfaceAreaOfSphereResult" class="result">
+          <span class="label">Result:</span>
+          <span class="answer"></span>
+        </div>
+      </div>
+
+    </div>
+
+    <script src="js/jquery-2.1.4.js"></script>
+    <script src="js/index.js"></script>
+  </body>
+</html>
