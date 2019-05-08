@@ -1,0 +1,86 @@
+* {
+  /* border: 1px blue dashed; */
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 100%;
+}
+
+.box {
+  border: 1px #333 solid;
+  text-align: center;
+  padding: 10px;
+  border-radius: 5px;
+  color: #FFFFFF;
+}
+
+.container {
+  width: 1024px;
+  margin: 0 auto;
+}
+
+.header-container {
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
+.section {
+  padding: 200px; /* using padding to control the height */
+  width: 48%;
+  background-color: #FF1053;
+  color: #fff;
+}
+
+.feature {
+  padding: 75px; /* using padding to control the height */
+  width: 20%;
+  background-color: #6C6EA0;
+
+}
+
+.footer {
+  padding: 125px; /* using padding to control the height */
+  width: 100%;
+  background-color: #66C7F4;
+}
+
+.logo {
+  padding: 25px; /* using padding to control the height */
+  width: 20%;
+  background-color: #A06CD5;
+}
+
+.nav-item {
+  padding: 20px; /* using padding to control the height */
+  width: 15%;
+  margin-left: 10px;
+  background-color: #C1CAD6;
+}
+
+.section-container {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  margin-bottom: 20px;
+}
+
+.feature-container {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  margin-bottom: 20px;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 80%;
+}
