@@ -84,3 +84,80 @@ body {
   align-items: center;
   width: 80%;
 }
+
+.mobile-menu-button {
+  display: none;
+  height: 50px;
+  width: 50px;
+  border 1px black solid;
+  background-color: green;
+}
+
+/* Extra Large devices (large desktops, 1200px and down) */
+@media only screen and (max-width: 1200px) {
+  /* styles go here */
+}
+
+/*
+  Large devices (desktops, 992px and down)
+*/
+@media only screen and (max-width: 992px) {
+  /* styles go here */
+}
+
+/*
+  Medium devices (tablets, 768px and down)
+*/
+@media only screen and (max-width: 768px) {
+  /* styles go here */
+}
+
+/*
+  Small devices (landscape phone, 576px and down)
+*/
+@media only screen and (max-width: 576px) {
+  /* styles go here */
+  .container {
+    width: 100%;
+  }
+
+  .section-container {
+    display: block;
+  }
+
+  .section {
+    width: 100%;
+    margin-bottom: 1em;
+  }
+
+  .feature-container {
+    flex-wrap: wrap;
+    /* width: 48%; */
+  }
+
+  .feature {
+    width: 48%;
+    margin-bottom: 10px;
+  }
+
+  .nav-container {
+    display: none;
+  }
+
+  .mobile-menu-button {
+    display: block;
+  }
+
+  .mobile-menu-container {
+    width: 100%;
+  }
+
+  .mobile-menu-item {
+    padding: 20px;
+    background-color: orange;
+    border: 1px solid #EEEEEE;
+  }
+
+
+
+}
