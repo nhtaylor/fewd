@@ -168,4 +168,75 @@ footer {
 	text-decoration-color: black;
 }
 
+
 /* Add your media queries below  */
+
+#mobile-menu-button {
+  color: #FFF;
+  display: none;
+}
+
+/*
+  Medium devices (tablets, 768px and down)
+*/
+@media only screen and (max-width: 768px) {
+  /* styles go here */
+
+	.blurb-container {
+		justify-content: center;
+	}
+
+	.touts-container {
+		display: block;
+
+	}
+
+	.tout {
+		margin: 0 auto;
+		width: 65%;
+	}
+
+	#mobile-menu-button {
+		display: block;
+	}
+
+	.nav-container {
+    display: block;
+    width: 100%;
+    overflow: hidden;
+  }
+
+  .nav-container.showing {
+    transition: all 500ms ease-in-out;
+    max-height: 500px;
+  }
+
+  .nav-container.hiding {
+    transition: all 500ms ease-in-out;
+    max-height: 0px;
+  }
+
+  .nav-item {
+    margin-left: 0px;
+    margin-bottom: 5px;
+		text-align: center;
+  }
+
+	.container {
+		flex-wrap: wrap;
+		padding: 20px;
+	}
+
+	.fa-lg {
+		margin-top: 15px;
+	}
+
+}
+
+/*
+  Small devices (landscape phone, 576px and down)
+*/
+@media only screen and (max-width: 576px) {
+  /* styles go here */
+
+}
