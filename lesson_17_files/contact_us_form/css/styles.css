@@ -1,0 +1,76 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Noto Sans', sans-serif;
+  background-color: #0079bf;
+}
+
+.form-container {
+  max-width: 960px;
+  border-radius: 5px;
+  border: 1px solid #dfe1e6;
+  margin: 0 auto;
+  background-color: #fff;
+}
+
+.form-container .form-header {
+  width: 100%;
+  text-align: center;
+}
+
+.form-container .form-body {
+  width: 100%;
+}
+
+.form-group {
+  display: flex;
+}
+
+.form-group label {
+  width: 25%;
+  margin-bottom: 15px;
+}
+
+.form-body {
+  padding: 30px;
+}
+
+/* #email, #password {
+  width: 36.5%;
+  margin-bottom: 5px;
+} */
+
+/* above is the same as this */
+input[type="text"], input[type="password"], textarea, select {
+  width: 36.5%;
+  margin-bottom: 15px;
+  padding: 5px;
+  font-size: 18px;
+}
+
+.radio-button-container {
+  display: flex;
+  /* width: 100%; */
+  /* justify-content: space-around; */
+}
+
+.radio-button-container div{
+  margin-right: 35px;
+}
+
+.form-group button {
+  padding: 10px;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 18px;
+  width: 100px;
+  background-color: #8F305B;
+  color: #fff;
+  margin-left: 25%;
+}
+
+.form-group.button {
+  /* i didn't get this */
+}

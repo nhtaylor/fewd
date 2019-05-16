@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Contact Us</title>
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+  <body>
+    <div class="form-container">
+      <div class="form-header">
+        <h1>We're looking forward to hearing from you!</h1>
+
+        <p>
+          Got a question? We'd love to hear from you. Send us a message and we'll respond as soon as possible
+        </p>
+      </div>
+
+
+      <form class="registration" action="#" method="#">
+        <div class="form-body">
+
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="text" name="email" id="email" value="" >
+          </div>
+
+          <div class="form-group">
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password" value="" >
+          </div>
+
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea name="message" rows="10" cols="50" id="message"></textarea>
+          </div>
+
+          <div class="form-group">
+            <label for="service">Which one of our services are you interested in?</label>
+
+            <div class="checkbox-container">
+              <input type="checkbox" id="development" name="development">
+              <label for="development">Development</label>
+
+              <input type="checkbox" id="design" name="design">
+              <label for="design">Design</label>
+
+              <input type="checkbox" id="seo" name="seo">
+              <label for="seo">SEO</label>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="business-size">Business size (number of team members)</label>
+
+            <div class="radio-button-container">
+              <div>
+                <input type="radio" id="small" name="business-size" value="small">
+                <label for="small">1-5</label>
+              </div>
+
+              <div>
+                <input type="radio" id="medium" name="business-size" value="medium">
+                <label for="medium">5-50</label>
+              </div>
+
+              <div>
+                <input type="radio" id="large" name="business-size" value="large">
+                <label for="large">over 50</label>
+              </div>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="referral">How did you hear about us?</label>
+            <select class="" name="referral">
+              <option value="blog">Our blog</option>
+              <option value="friend">Friend</option>
+              <option value="conference">Conference</option>
+              <option value="conference">Other</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <button type="button" name="button">
+              Submit
+            </button>
+          </div>
+
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
